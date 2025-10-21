@@ -1,0 +1,18 @@
+# Manually curated static symbols that don't show up in the ELF.
+[[section]]
+name = ".core1"
+rom = 0x00F19250
+vram = 0x8023DA20
+size = 0x3C710
+
+symbols = [
+    { name = "sGfxStack", vram = 0x80276580 },
+    { name = "sMesgQueue2", vram = 0x802807B0 },
+    { name = "sMtxStack", vram = 0x80282FF0 },
+    { name = "sVtxStack", vram = 0x80282FF8 },
+    { name = "sStackSelector", vram = 0x80283000 },
+    { name = "sUcodeData", vram = 0x80283280 },
+    { name = "D_80283380", vram = 0x80283380 },
+    { name = "D_80283384", vram = 0x80283384 },
+    { name = "D_80283388", vram = 0x80283388 }
+]
